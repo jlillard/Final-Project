@@ -1,0 +1,49 @@
+#NEXUS
+[ID: 0759593004]
+[This file contains the trees that were found during the MCMC
+search, sorted by posterior probability. "p" indicates the
+posterior probability of the tree whereas "P" indicates the
+cumulative posterior probability.]
+
+begin trees;
+   translate
+    1 Anolis_carolinensis,
+    2 Apalone_ferox,
+    3 Carettochelys_insculpta,
+    4 Chelonia_mydas,
+    5 Chelydra_sp,
+    6 Chrysemys_picta,
+    7 Clemmys_marmorata,
+    8 Crocodylus_porosus,
+    9 Cyclemys_dentata,
+   10 Deirochelys_reticularia,
+   11 Dermatemys_sp,
+   12 Dermochelys_coriacea,
+   13 Erymnochelys_madagascariensis,
+   14 Gallus_gallus,
+   15 Geochelone_pardalis,
+   16 Geoemyda_spengleri,
+   17 Gopherus_berlandieri,
+   18 Graptemys_pseudogeographica,
+   19 Homo_sapiens19,
+   20 Kinosternon_flavescens,
+   21 Lepidochelys_olivacea,
+   22 Lissemys_punctata,
+   23 Nilssonia_formosa,
+   24 Pelodiscus_sinensis,
+   25 Pelomedusa_subrufa1,
+   26 Pelusios_castaneus,
+   27 Phrynops_sp,
+   28 Platemys_platycephala,
+   29 Platysternon_megacephalum,
+   30 Podocnemis_erythracephala,
+   31 Python_molurus,
+   32 Rhinoclemmys_punctularia,
+   33 Sphenodon_punctatus,
+   34 Staurotypus_triporcatus,
+   35 Sternotherus_minor,
+   36 Terrapene_ornata,
+   37 Testudo_horsfieldii,
+   38 Trachemys_scripta;
+   tree tree_1 [p = 1.000, P = 1.000] = [&W 1.000000] (31,(33,(19,((14,8),(((28,27),((26,25),(30,13))),(((((17,(37,15)),(32,(16,9))),(29,((36,7),(10,((38,18),6))))),((((34,(35,20)),11),5),(12,(21,4)))),((22,((24,23),2)),3)))))),1);
+end;
