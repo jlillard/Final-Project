@@ -1,0 +1,140 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=38;
+	taxlabels
+	Anolis_carolinensis
+	Apalone_ferox
+	Carettochelys_insculpta
+	Chelonia_mydas
+	Chelydra_sp
+	Chrysemys_picta
+	Clemmys_marmorata
+	Crocodylus_porosus
+	Cyclemys_dentata
+	Deirochelys_reticularia
+	Dermatemys_sp
+	Dermochelys_coriacea
+	Erymnochelys_madagascariensis
+	Gallus_gallus
+	Geochelone_pardalis
+	Geoemyda_spengleri
+	Gopherus_berlandieri
+	Graptemys_pseudogeographica
+	Homo_sapiens19
+	Kinosternon_flavescens
+	Lepidochelys_olivacea
+	Lissemys_punctata
+	Nilssonia_formosa
+	Pelodiscus_sinensis
+	Pelomedusa_subrufa1
+	Pelusios_castaneus
+	Phrynops_sp
+	Platemys_platycephala
+	Platysternon_megacephalum
+	Podocnemis_erythracephala
+	Python_molurus
+	Rhinoclemmys_punctularia
+	Sphenodon_punctatus
+	Staurotypus_triporcatus
+	Sternotherus_minor
+	Terrapene_ornata
+	Testudo_horsfieldii
+	Trachemys_scripta
+;
+end;
+
+begin trees;
+	tree PAUP_1 = [&U] (Anolis_carolinensis[&!rotate=false,!name="Squamata"],((((((((Apalone_ferox[&!name="Trionychia",!rotate=true],(Nilssonia_formosa[&!name="Trionychia",!rotate=true],Pelodiscus_sinensis[&!name="Trionychia",!rotate=true])[&"bootstrap values"=100,!name="Trionychia",!rotate=true])[&"bootstrap values"=100,!name="Trionychia",!rotate=true],Lissemys_punctata[&!name="Trionychia",!rotate=true])[&"bootstrap values"=100,!name="Trionychia",!rotate=true],Carettochelys_insculpta[&!name="Trionychia",!rotate=true])[&"bootstrap values"=100,!name="Trionychia",!rotate=true],((((Chelonia_mydas,Lepidochelys_olivacea)[&"bootstrap values"=100],Dermochelys_coriacea)[&"bootstrap values"=100],(Chelydra_sp,(Dermatemys_sp,((Kinosternon_flavescens,Sternotherus_minor)[&"bootstrap values"=100],Staurotypus_triporcatus)[&"bootstrap values"=100])[&"bootstrap values"=100])[&"bootstrap values"=100])[&"bootstrap values"=99.45],(((((Chrysemys_picta,(Graptemys_pseudogeographica,Trachemys_scripta)[&"bootstrap values"=100])[&"bootstrap values"=100],Deirochelys_reticularia)[&"bootstrap values"=100],(Clemmys_marmorata,Terrapene_ornata)[&"bootstrap values"=100])[&"bootstrap values"=100],Platysternon_megacephalum)[&"bootstrap values"=99.9],(((Cyclemys_dentata,Geoemyda_spengleri)[&"bootstrap values"=97.85],Rhinoclemmys_punctularia)[&"bootstrap values"=100],((Geochelone_pardalis,Testudo_horsfieldii)[&"bootstrap values"=100],Gopherus_berlandieri)[&"bootstrap values"=100])[&"bootstrap values"=100])[&"bootstrap values"=100])[&"bootstrap values"=100])[&"bootstrap values"=100],(((Erymnochelys_madagascariensis,Podocnemis_erythracephala)[&"bootstrap values"=100],(Pelomedusa_subrufa1,Pelusios_castaneus)[&"bootstrap values"=100])[&"bootstrap values"=100],(Phrynops_sp,Platemys_platycephala)[&"bootstrap values"=100])[&"bootstrap values"=100])[&"bootstrap values"=100],(Crocodylus_porosus[&!name="Archosauria"],Gallus_gallus[&!name="Archosauria"])[&"bootstrap values"=99.9,!name="Archosauria"])[&"bootstrap values"=100],Sphenodon_punctatus)[&"bootstrap values"=68.4],Homo_sapiens19)[&"bootstrap values"=100,!rotate=false,!name="Squamata"],Python_molurus[&!rotate=false,!name="Squamata"])[&"bootstrap values"=100];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bootstrap values";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap values";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

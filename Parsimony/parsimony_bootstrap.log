@@ -1,0 +1,167 @@
+
+P A U P *
+Version 4.0a (build 165) for Macintosh (X86) (built on Apr  2 2019 at 00:28:31)
+Sunday, April 28, 2019 at 11:40:50 PM Central Daylight Time
+
+
+paup> bootstrap nreps=100 treefile=boot.tre search=heuristic /start=stepwise addseq=random nreps=10
+swap=TBR;
+
+Bootstrap method with heuristic search:
+  Number of bootstrap replicates = 100
+  Starting seed = generated automatically
+  Number of characters resampled in each replicate = 191121
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 191121 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        145828 characters are constant (proportion = 0.763014)
+        24477 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 20816
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 10
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+  100 bootstrap replicates completed
+  Time used = 00:02:25 (CPU time = 00:02:26.2)
+
+Trees for each replicate written to treefile: ~/Documents/Parsimony/boot.tre
+
+Bootstrap 50% majority-rule consensus tree
+
+                                                           /------- Anolis carolinensis(1)
+                                                     /-100-+
+                                                     |     \------- Python molurus(31)
+                                              /--72--+
+                                        /-100-+      \------------- Homo sapiens19(19)
+                                        |     |
+                                        |     \-------------------- Sphenodon punctatus(33)
+/---------------------------------------+
+|                                       |                  /------- Crocodylus porosus(8)
+|                                       \-------100--------+
+|                                                          \------- Gallus gallus(14)
+|
+|                                                    /------------- Apalone ferox(2)
+|                                                    |
+|                                             /-100--+     /------- Nilssonia formosa(23)
+|                                             |      \-100-+
+|                                       /-100-+            \------- Pelodiscus sinensis(24)
+|                                       |     |
+|            /-----------100------------+     \-------------------- Lissemys punctata(22)
+|            |                          |
+|            |                          \-------------------------- Carettochelys insculpta(3)
+|            |
+|            |                                             /------- Chelonia mydas(4)
+|            |                                       /-100-+
+|            |                                       |     \------- Lepidochelys olivacea(21)
+|            |                   /--------100--------+
+|            |                   |                   \------------- Dermochelys coriacea(12)
+|            |      /----100-----+
+100          |      |            |      /-------------------------- Chelydra sp(5)
+|      /-100-+      |            |      |
+|      |     |      |            \-100--+     /-------------------- Dermatemys sp(11)
+|      |     |      |                   |     |
+|      |     |      |                   \-100-+            /------- Kinosternon flavescens(20)
+|      |     |      |                         |      /-100-+
+|      |     |      |                         |      |     \------- Sternotherus minor(35)
+|      |     |      |                         \-100--+
+|      |     |      |                                \------------- Staurotypus triporcatus(34)
+|      |     |      |
+|      |     |      |                                /------------- Chrysemys picta(6)
+|      |     |      |                                |
+|      |     \-100--+                         /-100--+     /------- Graptemys pseudogeographica(18)
+|      |            |                         |      \-100-+
+|      |            |                   /-100-+            \------- Trachemys scripta(38)
+|      |            |                   |     |
+|      |            |            /-100--+     \-------------------- Deirochelys reticularia(10)
+|      |            |            |      |
+|      |            |            |      |                  /------- Clemmys marmorata(7)
+|      |            |     /-100--+      \-------100--------+
+|      |            |     |      |                         \------- Terrapene ornata(36)
+\------+            |     |      |
+       |            |     |      \--------------------------------- Platysternon megacephalum(29)
+       |            |     |
+       |            \-100-+                                /------- Cyclemys dentata(9)
+       |                  |                          /-96--+
+       |                  |                          |     \------- Geoemyda spengleri(16)
+       |                  |                   /-100--+
+       |                  |                   |      \------------- Rhinoclemmys punctularia(32)
+       |                  |                   |
+       |                  \--------100--------+            /------- Geochelone pardalis(15)
+       |                                      |      /-100-+
+       |                                      |      |     \------- Testudo horsfieldii(37)
+       |                                      \-100--+
+       |                                             \------------- Gopherus berlandieri(17)
+       |
+       |                                                   /------- Erymnochelys madagascariensis(13)
+       |                                             /-100-+
+       |                                             |     \------- Podocnemis erythracephala(30)
+       |                                      /-100--+
+       |                                      |      |     /------- Pelomedusa subrufa1(25)
+       |                                      |      \-100-+
+       \-----------------100------------------+            \------- Pelusios castaneus(26)
+                                              |
+                                              |            /------- Phrynops sp(27)
+                                              \----100-----+
+                                                           \------- Platemys platycephala(28)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+         1         2         3       3
+12345678901234567890123456789012345678          Freq
+----------------------------------------------------
+.......*.....*........................        100.00
+..........................**..........        100.00
+........................**............        100.00
+............*................*........        100.00
+............*...........**...*........        100.00
+............*...........****.*........        100.00
+..............*.....................*.        100.00
+..............*.*...................*.        100.00
+........*......*...............*......        100.00
+........*.....***..............*....*.        100.00
+......*............................*..        100.00
+.................*...................*        100.00
+.....*...........*...................*        100.00
+.....*...*.......*...................*        100.00
+.....**..*.......*.................*.*        100.00
+.....**..*.......*..........*......*.*        100.00
+.....**.**....****..........*..*...***        100.00
+...................*..............*...        100.00
+...................*.............**...        100.00
+..........*........*.............**...        100.00
+....*.....*........*.............**...        100.00
+...*................*.................        100.00
+...*.......*........*.................        100.00
+...****.****..****.**.......*..*.*****        100.00
+......................**..............        100.00
+.*....................**..............        100.00
+.*...................***..............        100.00
+.**..................***..............        100.00
+.******.****..****.*****....*..*.*****        100.00
+.******.*****.****.***********.*.*****        100.00
+.*****************.***********.*.*****        100.00
+.*****************************.*******        100.00
+...**.....**.......**............**...         99.50
+........*......*......................         96.00
+.*****************.***********.*******         72.00
+.*****************************.*.*****         28.00
+
+3 groups at (relative) frequency less than 5% not shown
+
+paup> savetrees file=bootMajRule.tree from=1 to=1 savebootp=nodelabels;
+
+paup> savetrees file=bootMajRule.tree from=1 to=1 savebootp=nodelabels;
+
+1 tree saved to file "~/Documents/bootMajRule.tree"

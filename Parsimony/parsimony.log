@@ -1,0 +1,165 @@
+
+P A U P *
+Version 4.0a (build 165) for Macintosh (X86) (built on Apr  2 2019 at 00:28:31)
+Sunday, April 28, 2019 at 11:35:46 PM Central Daylight Time
+
+
+paup> hsearch start=stepwise addseq=random nreps=100 swap=TBR;
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 191121 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        145828 characters are constant (proportion = 0.763014)
+        24477 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 20816
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 100
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 697455
+  Score of best tree(s) found = 74749
+  Number of trees retained = 1
+  Time used = 9.48 sec (CPU time = 9.36 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1           74749            1     100
+
+paup> hsearch start=stepwise addseq=random nreps=1000 swap=TBR;
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 191121 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        145828 characters are constant (proportion = 0.763014)
+        24477 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 20816
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 1000
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 8616974
+  Score of best tree(s) found = 74749
+  Number of trees retained = 1
+  Time used = 00:01:46 (CPU time = 00:01:45.8)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1           74749            1    1000
+
+paup> showtrees all;
+
+Tree 1 (rooted using user-specified outgroup)
+
+                                                               /------- Anolis carolinensis
+                                                        /------+
+                                                        |      \------- Python molurus
+                                                 /------+
+                                          /------+      \-------------- Homo sapiens19
+                                          |      |
+                                          |      \--------------------- Sphenodon punctatus
+/-----------------------------------------+
+|                                         |                    /------- Crocodylus porosus
+|                                         \--------------------+
+|                                                              \------- Gallus gallus
+|
+|                                                       /-------------- Apalone ferox
+|                                                       |
+|                                                /------+      /------- Nilssonia formosa
+|                                                |      \------+
+|                                         /------+             \------- Pelodiscus sinensis
+|                                         |      |
+|             /---------------------------+      \--------------------- Lissemys punctata
+|             |                           |
+|             |                           \---------------------------- Carettochelys insculpta
+|             |
+|             |                                                /------- Chelonia mydas
+|             |                                         /------+
+|             |                                         |      \------- Lepidochelys olivacea
+|             |                    /--------------------+
+|             |                    |                    \-------------- Dermochelys coriacea
+|             |      /-------------+
+|             |      |             |      /---------------------------- Chelydra sp
+|      /------+      |             |      |
+|      |      |      |             \------+      /--------------------- Dermatemys sp
+|      |      |      |                    |      |
+|      |      |      |                    \------+             /------- Kinosternon flavescens
+|      |      |      |                           |      /------+
+|      |      |      |                           |      |      \------- Sternotherus minor
+|      |      |      |                           \------+
+|      |      |      |                                  \-------------- Staurotypus triporcatus
+|      |      |      |
+|      |      |      |                                  /-------------- Chrysemys picta
+|      |      |      |                                  |
+|      |      \------+                           /------+      /------- Graptemys pseudogeographica
+|      |             |                           |      \------+
+|      |             |                    /------+             \------- Trachemys scripta
+|      |             |                    |      |
+|      |             |             /------+      \--------------------- Deirochelys reticularia
+|      |             |             |      |
+|      |             |             |      |                    /------- Clemmys marmorata
+|      |             |      /------+      \--------------------+
+|      |             |      |      |                           \------- Terrapene ornata
+\------+             |      |      |
+       |             |      |      \----------------------------------- Platysternon megacephalum
+       |             |      |
+       |             \------+                                  /------- Cyclemys dentata
+       |                    |                           /------+
+       |                    |                           |      \------- Geoemyda spengleri
+       |                    |                    /------+
+       |                    |                    |      \-------------- Rhinoclemmys punctularia
+       |                    |                    |
+       |                    \--------------------+             /------- Geochelone pardalis
+       |                                         |      /------+
+       |                                         |      |      \------- Testudo horsfieldii
+       |                                         \------+
+       |                                                \-------------- Gopherus berlandieri
+       |
+       |                                                       /------- Erymnochelys madagascariensis
+       |                                                /------+
+       |                                                |      \------- Podocnemis erythracephala
+       |                                         /------+
+       |                                         |      |      /------- Pelomedusa subrufa1
+       |                                         |      \------+
+       \-----------------------------------------+             \------- Pelusios castaneus
+                                                 |
+                                                 |             /------- Phrynops sp
+                                                 \-------------+
+                                                               \------- Platemys platycephala
+
+paup> savetree file=hsearch.tre brlen=yes;
+
+1 tree saved to file "~/Documents/hsearch.tre"
+
+paup> log stop;
