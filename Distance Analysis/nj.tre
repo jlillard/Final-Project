@@ -1,0 +1,56 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sunday, April 28, 2019 at 11:53:52 PM Central Daylight Time]
+[!
+>Data file = complete_dataset2_MrB500k.nex
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = Jukes-Cantor
+>  All characters have equal weight
+>  (Tree is unrooted)
+>
+>NOTE: Random-addition-sequence option is ignored when starting trees are obtained using neighbor-
+>      joining.
+]
+	Translate
+		1 Anolis_carolinensis,
+		2 Apalone_ferox,
+		3 Carettochelys_insculpta,
+		4 Chelonia_mydas,
+		5 Chelydra_sp,
+		6 Chrysemys_picta,
+		7 Clemmys_marmorata,
+		8 Crocodylus_porosus,
+		9 Cyclemys_dentata,
+		10 Deirochelys_reticularia,
+		11 Dermatemys_sp,
+		12 Dermochelys_coriacea,
+		13 Erymnochelys_madagascariensis,
+		14 Gallus_gallus,
+		15 Geochelone_pardalis,
+		16 Geoemyda_spengleri,
+		17 Gopherus_berlandieri,
+		18 Graptemys_pseudogeographica,
+		19 Homo_sapiens19,
+		20 Kinosternon_flavescens,
+		21 Lepidochelys_olivacea,
+		22 Lissemys_punctata,
+		23 Nilssonia_formosa,
+		24 Pelodiscus_sinensis,
+		25 Pelomedusa_subrufa1,
+		26 Pelusios_castaneus,
+		27 Phrynops_sp,
+		28 Platemys_platycephala,
+		29 Platysternon_megacephalum,
+		30 Podocnemis_erythracephala,
+		31 Python_molurus,
+		32 Rhinoclemmys_punctularia,
+		33 Sphenodon_punctatus,
+		34 Staurotypus_triporcatus,
+		35 Sternotherus_minor,
+		36 Terrapene_ornata,
+		37 Testudo_horsfieldii,
+		38 Trachemys_scripta
+		;
+tree 'PAUP_1' = [&U] ((((((1:0.030572,31:0.057344):0.027771,33:-0.004839):2.157e-03,19:0.057631):0.005744,14:0.023375):0.003989,8:0.016755):0,(((((2:0.004953,(23:0.003255,24:0.003662):1.261e-03):0.004505,22:0.018584):0.011295,3:0.027830):0.002686,(((((4:2.400e-03,21:0.003713):2.731e-03,12:0.008663):0.005243,(((((6:1.820e-03,(18:2.019e-03,38:-2.937e-04):-2.581e-04):4.323e-04,10:1.830e-03):0.001680,(7:1.737e-03,36:1.695e-03):8.538e-04):1.204e-03,29:0.003934):1.384e-03,(((9:2.913e-03,16:0.003659):0.001706,32:0.003977):5.356e-04,((15:0.006555,37:0.004844):0.002987,17:0.003974):1.799e-03):0.001850):1.378e-03):1.33808e-05,5:0.007747):6.647e-04,(11:0.008471,((20:2.194e-03,35:0.001758):0.002865,34:0.006505):0.004301):0.003671):0.004939):0.002314,(((13:0.014351,30:0.012805):0.005332,(25:0.004160,26:0.003440):0.011328):0.004225,(27:0.003796,28:0.004009):0.010720):4.427e-03):0.009746);
+End;
